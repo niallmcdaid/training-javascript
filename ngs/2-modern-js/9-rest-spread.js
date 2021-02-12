@@ -1,4 +1,4 @@
-const [first, ...restOfItems] = [10, 20, 30, 40];
+const [first, ...restOfItems] = [10, 20, 30, 40]; // creates one single const (first) and an array (restOfItems)
 
 const data = {
   temp1: '001',
@@ -9,7 +9,7 @@ const data = {
 
 const { temp1, temp2, ...person } = data;
 
-const newArray = [...restOfItems];
+const newArray = [...restOfItems]; // this is just a straight copy of newArray
 
 const newObject = {
   ...person,

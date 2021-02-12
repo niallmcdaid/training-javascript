@@ -1,5 +1,9 @@
 const https = require('https');
 
+/*
+Reads https response for a URL
+Returns a Promise object
+*/
 function fetch (url) {
   return new Promise((resolve, reject) => {
     https.get(url, (res) => {

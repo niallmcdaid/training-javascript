@@ -1,8 +1,8 @@
-// const PI = Math.PI;
+ // const PI = Math.PI;
 // const E = Math.E;
 // const SQRT2 = Math.SQRT2;
 
-const { PI, E, SQRT2 }  = Math;
+const { PI, E, SQRT2 }  = Math; // equivalent to 3 lines above
 
 // With require
 // const { readFile } = require('fs');
@@ -19,3 +19,6 @@ const { PI, E, SQRT2 }  = Math;
 // console.log(
 //   circleArea(circle)
 // );
+
+
+// const [first, second, , fourth] = [1, 2, 3, 4]; // sets local values for first, second and fourth
