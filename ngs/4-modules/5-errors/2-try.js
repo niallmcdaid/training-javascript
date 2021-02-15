@@ -9,6 +9,6 @@ files.forEach(file => {
     const data = fs.readFileSync(filePath);
     console.log('File data is', data);
   } catch (err) {
-    console.log('File not found');
+    console.log('File not found'); // be careful here - any error will be excepted, not only 'file not found' errors
   }
 });

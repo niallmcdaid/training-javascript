@@ -1,5 +1,7 @@
 // Top-level API is a function
 
+// Short hand notation for a function used here
+// See 2-modern-js\6-arrow-functions.js for details of this
 module.exports = title => `
   <!DOCTYPE html>
   <html lang="en">

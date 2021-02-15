@@ -12,7 +12,7 @@ files.forEach(file => {
     if (err.code === 'ENOENT') {
       console.log('File not found');
     } else {
-      throw err;
+      throw err; // exit process
     }
   }
 });
