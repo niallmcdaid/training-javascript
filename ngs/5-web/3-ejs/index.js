@@ -2,10 +2,10 @@ const express = require('express');
 
 const server = express();
 
-server.set('view engine', 'ejs');
+server.set('view engine', 'ejs'); // set view engine to ejs
 
 server.get('/', (req, res) => {
-  res.render('index');
+  res.render('index'); // render HTML for these URLs using templating language ejs
 });
 
 server.get('/about', (req, res) => {
